@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ass7</title>
+</head>
+<style>
+    form{
+        width: 300px;
+        margin: auto;
+        border: 2px solid blueviolet;
+        height: 260px;
+        padding: 20px;
+        position: relative;
+        align-items: center;
+        align-content: center;
+    }
+    .label{
+        display: block;
+        margin-top: 10px;
+        font-size: 20px;
+        color:blueviolet
+    
+    }
+    .div1{
+    
+        margin-left: 60px;
+    }
+    input ,select{
+        border-radius: 5px;
+        border: 2px solid gray;
+        height: 25px;
+        width:160px
+    }
+    select{
+        margin-top: 20px;
+    }
+
+</style>
+<body>
+
+    <form >
+    <div class="div1">
+        <label for="FirstName" class="label">first name</label>
+        <input type="text" id="FirstName" class="first">
+    </div>
+
+    <div class="div1">
+        <label for="SecondName" class="label">second name</label>
+        <input type="text" id="SecondName">
+    </div>
+
+    <div class="div1">
+        <label for="Password" class="label">password</label>
+        <input type="password" id="Password">
+    </div>
+
+    <div class="div1">
+        <select  id="SelectItem" class="label">
+            <option value="color">color</option>
+            <option value="font">font</option>
+            <option value="size">size</option>
+            <option value="background">background</option>
+            <option value="position">position</option>
+        </select>
+    </div>
+    
+    </form>
+
+    <script src="ass7.js"></script>
+</body> 
+</html>
